@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body{
+	background: #efefef;
+	/*background: gray;*/
+}
+h1 {
+	text-align: center;	
+}
+h5{
+	text-align: right;
+}
+#btn {
+	margin: 30px auto 0;
+	width: 300px;
+	height: 200px;
+	border-radius: 50%;
+	background: #00FF3B;
+	text-align: center;
+	line-height: 200px;
+	color: #003300;
+	font-size: 42px;
+	font-weight: bold;
+	cursor: pointer;
+	opacity: 0.9;
+	box-shadow: 0 10px 0 #005500;
+	border: 3px solid #005500;
+	user-select: none; /*ボタン連打しても文字が選択されない*/
+}
+.container {
+	width: 500px;
+	margin: 25px auto; /*外側の余白*/
+}
+#btn:hover{
+	opacity: 1;
+}
+
+#btn.pushed{
+	margin-top: 36px;
+	box-shadow: 0 4px 0 #005500;
+}
